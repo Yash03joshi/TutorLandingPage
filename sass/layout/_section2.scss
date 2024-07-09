@@ -3,6 +3,7 @@
         background-color: #0063ff;
         height: 20vh;
         display: flex;
+        margin-top: 5rem;
         align-items: center;
         justify-content: center;
         gap: 15rem;
@@ -29,7 +30,7 @@
         }
     }
     &__main{
-        height: 60vh;
+        // height: 60vh;
         display: flex;
         flex-direction: column;
         align-items: center;

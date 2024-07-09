@@ -1,0 +1,234 @@
+@media only screen and (max-width: 400px) and (min-width: 300px) {
+    
+}
+
+@media only screen and (max-width: 857px) and (min-width: 400px) {
+    html{
+        font-size: 47%;
+    }
+    .section2{
+        margin-top: 4rem;
+        &__data{
+            gap: 7rem;
+        }
+    
+        &__main__h3{
+            width: 40%;
+        }
+    }
+    .section1{
+
+        width: 80%;
+        &__left__h3{
+            width: 90%;
+        }
+    }
+    .section3{
+        padding: 3rem 0 8rem 0;
+        &__top{
+            width: 90%;
+        }
+    }
+    .footer__profile__para{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 947px) and (min-width: 857px) {
+    html{
+        font-size: 47%;
+    }
+    .section2{
+        margin-top: 4rem;
+        &__data{
+            gap: 7rem;
+        }
+    
+        &__main__h3{
+            width: 40%;
+        }
+    }
+    .section1{
+
+        width: 75%;
+        &__left__h3{
+            width: 90%;
+        }
+    }
+    .section3{
+        padding: 3rem 0 8rem 0;
+        &__top{
+            width: 90%;
+        }
+    }
+    .footer__profile__para{
+        width: 35%;
+    }
+}
+
+
+@media only screen and (max-width: 1062px) and (min-width: 947px) {
+    html{
+        font-size: 52%;
+    }
+    .section2{
+        margin-top: 4rem;
+        &__data{
+            gap: 10rem;
+        }
+    
+        &__main__h3{
+            width: 40%;
+        }
+    }
+    .section1{
+
+        width: 75%;
+        &__left__h3{
+            width: 90%;
+        }
+    }
+    .section3{
+        padding: 3rem 0 8rem 0;
+        &__top{
+            width: 90%;
+        }
+    }
+    .footer__profile__para{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 1166px) and (min-width: 1062px) {
+    html{
+        font-size: 58%;
+    }
+    .section2{
+        &__data{
+            gap: 10rem;
+        }
+    
+        &__main__h3{
+            width: 40%;
+        }
+    }
+    .section1{
+        width: 75%;
+        &__left__h3{
+            width: 90%;
+        }
+    }
+    .section3__top{
+        width: 90%;
+    }
+    .footer__profile__para{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 1302px) and (min-width: 1166px) {
+    html{
+        font-size: 58%;
+    }
+    .section1{
+        width: 80%;
+    }
+    .section3__top{
+        width: 80%;
+    }
+    .footer__profile__para{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 1394px) and (min-width: 1302px) {
+    .section1{
+        width: 80%;
+    }
+    .section3__top{
+        width: 80%;
+    }
+    .footer__profile__para{
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 1527px) and (min-width: 1450px) {
+    html{
+        font-size: 68%;
+    }
+    .section1{
+        &__left__h3{
+            width: 90%;
+        }
+    }
+}
+@media only screen and (max-width: 1697px) and (min-width: 1527px) {
+    html{
+        font-size: 73%;
+    }
+    .section1{
+        &__left__h3{
+            width: 79%;
+        }
+    }
+}
+@media only screen and (max-width: 1867px) and (min-width: 1697px) {
+    html{
+        font-size: 73%;
+    }
+    .section1{
+        &__left__h3{
+            width: 70%;
+        }
+    }
+}
+@media only screen and (max-width: 2037px) and (min-width: 1867px) {
+    html{
+        font-size: 78%;
+    }
+    .section1{
+        &__left__h3{
+            width: 70%;
+        }
+    }
+}
+@media only screen and (max-width: 2207px) and (min-width: 2037px) {
+    html{
+        font-size: 83%;
+    }
+    .section1{
+        &__left__h3{
+            width: 68%;
+        }
+    }
+}
+@media only screen and (max-width: 2377px) and (min-width: 2207px) {
+    html{
+        font-size: 93%;
+    }
+    .section1{
+        &__left__h3{
+            width: 68%;
+        }
+    }
+}
+@media only screen and (max-width: 2561px) and (min-width: 2377px) {
+    html{
+        font-size: 100%;
+    }
+    .section1{
+        &__left__h3{
+            width: 68%;
+        }
+    }
+}
+@media screen and (min-width: 2561px){
+    html{
+        font-size: 110%;
+    }
+    .section1{
+        &__left__h3{
+            width: 68%;
+        }
+    }
+}
