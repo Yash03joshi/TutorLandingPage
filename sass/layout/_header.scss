@@ -1,0 +1,76 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17rem;
+    height: 12vh;
+    &__1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18rem;
+        gap: 1rem;
+        &__logo{
+            width:4rem ;
+        }
+        &__heading{
+            font-size: 1.8rem;
+            font-weight: 900;
+        }
+    }
+    &__2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        &__a{
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #999999;
+            text-transform: capitalize;
+        }
+        &__blue{
+            color: #0063ff;
+        }
+    }
+    &__3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        &__signin{
+            text-decoration: none;
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #000;
+            text-transform: capitalize;
+            padding: .7rem 1.4rem;
+        }
+        &__register{
+            text-decoration: none;
+            font-size: 1.6rem;
+            font-weight: 400;
+            border-radius: 2rem;
+            color: #fff;
+            background-color: #0063ff;
+            text-transform: capitalize;
+            padding: .7rem 1.4rem;
+        }
+    }
+}
+.talkToUs{
+    height: 5vh;
+    background-color: #ffcf3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    &__a{
+        text-decoration: none;
+        color: #0063ff;
+        font-weight: 700;
+        text-shadow:0 0 .5px #0063ff;
+    }
+}

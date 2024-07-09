@@ -1,0 +1,94 @@
+.section2{
+    &__data{
+        background-color: #0063ff;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15rem;
+        &__1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: .6rem;
+            
+            &:not( :first-child ) {
+                border-left: .1px solid #297cff;
+                padding-left: 3rem;
+              }
+        }
+        &__h4{
+            font-size: 2.6rem;
+            color: #fff;
+        }
+        &__h6{
+            color: #fff;
+            font-size: 1.8rem;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+    }
+    &__main{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 7rem;
+        gap: 2rem;
+        background-color: #f7f7f7;
+        &__h6{
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #fa7319;
+        }
+        &__h3{
+            font-size: 3rem;
+            color: #000;
+            text-transform: capitalize;
+            font-weight: 600;
+            width: 30%;
+            text-align: center;
+        }
+        &__blocks{
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            &__1{
+                display: flex;
+                flex-direction: column;
+                padding: 3rem;
+                width: 20rem;
+                gap: 2rem;
+                background-color: #fff;
+                border-radius: 2rem;
+                &__logo{
+                    width: 3.5rem;
+                    height: 3.5rem;
+                    border-radius: .4rem;
+                    &__1{
+                        background-color: #0063FF; 
+                    }
+                    &__2{
+                        background-color: #73BC00; 
+                    }
+                    &__3{
+                        background-color: #FA6400; 
+                    }
+                    &__4{
+                        background-color: #fE6BAA; 
+                    }
+                }
+                &__h6{
+                    font-size: 1.6rem;
+                    text-transform: capitalize;
+                }
+                &__para{
+                    font-size: 1.6rem;
+                    color: #6f6f6f;
+                }
+            }
+        }
+
+    }
+}
