@@ -1,32 +1,280 @@
-@media only screen and (max-width: 400px) and (min-width: 300px) {
-    
-}
-
-@media only screen and (max-width: 857px) and (min-width: 400px) {
+ @media only screen and (max-width: 757px ){
     html{
         font-size: 47%;
+    }
+    .header{
+        height: 8vh;
+        &__2{
+            flex-direction: column;
+            gap: 3rem;
+            &__a{
+                font-size: 2rem;
+               padding: 2rem 3rem;
+            }
+            &__a:hover{
+                background-color: aliceblue;
+                color: black;
+                border-radius: 5rem;
+                transition: all .5s;
+            }
+        }
+        &__3{
+            gap: 2rem;
+            & *{
+                font-size: 2rem;
+                padding: 2rem 3rem;
+                border-radius: 5rem;
+            } 
+        }
+        &__small{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            padding: 0 10rem;
+            &__btn{
+                position: absolute;
+                left: 5rem;
+                width: 5rem;
+                height: 5rem;
+                border-radius: 50%;
+                background-color: #000;
+                cursor: pointer;
+            }
+        }
+        &__large{
+            position: fixed;
+            top: 0;
+            left: 100%;
+            background-color: red;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+            gap: 5rem;
+            &__1{
+            display: none;
+            }
+        }
     }
     .section2{
         margin-top: 4rem;
         &__data{
+            display: none;
+            height: 14vh;
             gap: 7rem;
         }
     
-        &__main__h3{
+        &__main{
+            &__blocks{
+                grid-auto-rows: auto auto;
+                grid-template-columns: auto auto;
+                gap: 5rem;
+                column-gap: 10rem;
+            }
+            &__h3{
             width: 40%;
+            }
         }
     }
     .section1{
-
-        width: 80%;
-        &__left__h3{
-            width: 90%;
+        width: 100%;
+        
+        &__left{
+            align-items: center;
+            padding: 5rem 0;
+            &__h3{
+                width: 70%;
+                text-align: center;
+            }
+            &__p{
+                text-align: center;
+            }
+        }
+        &__right{
+            display: none;
+            &__gray{
+                display: none;
+            }
         }
     }
     .section3{
         padding: 3rem 0 8rem 0;
         &__top{
             width: 90%;
+            &__right{
+                align-items: center;
+                &__h5{
+                    text-align: center;
+                }
+                &__para{
+                    text-align: center;
+                    width: 80%;
+                }
+            }
+            &__left{
+                display: none;
+            }
+        }
+    }
+    .section4{
+        &__grid{
+            grid-template-columns: 35% 30%;
+            grid-template-rows: 10vh 10vh 10vh 10vh;
+            &__child{
+            padding: 1rem 2rem;
+            &__para{
+                font-size: 1.6rem;
+            }
+            }
+        }
+    }
+    .footer__profile__para{
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 550px ){
+    .talkToUs{
+        flex-direction: column;
+        height: 10vh;
+        &__p{
+            text-align: center;
+        }
+    }
+    
+    .section1{
+        &__left{
+            // width: 70%;
+            & *{
+                // width: 100%;
+            }
+        }
+    }
+    .section2{
+        &__main{
+            &__h3{
+                width: 90%;
+            }
+            &__blocks{
+                grid-template-columns: 80%;
+                grid-template-rows: auto auto auto auto;
+                gap: 3rem;
+                &__1{
+                    padding: 5rem;
+                    
+                }
+            }
+        }
+    }
+    .section3{
+        &__top{
+            width: 100%;
+            &__right{
+                width: 100%;
+                &__h5{
+                    width: 90%;
+                }
+                &__para{
+                    font-size: 1.6rem;
+                }
+                &__button{
+                    padding: 2rem 3rem ;
+                    width: 10rem;
+                    border-radius: 5rem;
+                    font-size: 1.6rem;
+                }
+            }
+            
+        }
+    }
+    .section4{
+        &__grid{
+            grid-template-columns: 40rem;
+            grid-template-rows: 10vh;
+        }
+    }
+    .footer{
+        &__yellow{
+            display: none;
+        }
+        &__blue{
+            display: none;
+        }
+        &__profile__para{
+            width: 80%;
+        }
+    }
+}
+
+@media only screen and (max-width: 857px) and (min-width: 757px) {
+    html{
+        font-size: 47%;
+    }
+    .header{
+        height: 8vh;
+    }
+    .section2{
+        margin-top: 4rem;
+        &__data{
+            // display: none;
+            height: 14vh;
+            gap: 7rem;
+        }
+    
+        &__main{
+            &__blocks{
+                grid-auto-rows: auto auto;
+                grid-template-columns: auto auto;
+                gap: 5rem;
+                column-gap: 10rem;
+            }
+            &__h3{
+            width: 40%;
+            }
+        }
+    }
+    .section1{
+
+        width: 85%;
+        &__left__h3{
+            width: 90%;
+        }
+        &__right{
+            &__gray{
+                display: none;
+            }
+        }
+    }
+    .section3{
+        padding: 3rem 0 8rem 0;
+        &__top{
+            width: 90%;
+            &__right{
+                align-items: center;
+                &__h5{
+                    text-align: center;
+                }
+                &__para{
+                    text-align: center;
+                    width: 80%;
+                }
+            }
+            &__left{
+                display: none;
+            }
+        }
+    }
+    .section4{
+        &__grid{
+            grid-template-columns: 35% 30%;
+            grid-template-rows: 10vh 10vh 10vh 10vh;
+            &__child{
+            padding: 1rem 2rem;
+            &__para{
+                font-size: 1.6rem;
+            }
+            }
         }
     }
     .footer__profile__para{
@@ -38,9 +286,13 @@
     html{
         font-size: 47%;
     }
+    .header{
+        height: 8vh;
+    }
     .section2{
         margin-top: 4rem;
         &__data{
+            height: 15vh;
             gap: 7rem;
         }
     
@@ -59,6 +311,18 @@
         padding: 3rem 0 8rem 0;
         &__top{
             width: 90%;
+        }
+    }
+    .section4{
+        &__grid{
+            grid-template-columns: 20% 20% 20% 20%;
+            grid-template-rows: 8vh 8vh;
+            &__child{
+            padding: .4rem .5rem;
+            &__para{
+                font-size: 1.6rem;
+            }
+            }
         }
     }
     .footer__profile__para{
@@ -71,9 +335,13 @@
     html{
         font-size: 52%;
     }
+    .header{
+        height: 8vh;
+    }
     .section2{
-        margin-top: 4rem;
+        // margin-top: 4rem;
         &__data{
+            height: 15vh;
             gap: 10rem;
         }
     
@@ -94,6 +362,18 @@
             width: 90%;
         }
     }
+    .section4{
+        &__grid{
+            grid-template-columns: 17% 17% 17% 17%;
+            grid-template-rows: 8vh 8vh;
+            &__child{
+            padding: 3rem 1.5rem;
+            &__para{
+                font-size: 1.6rem;
+            }
+            }
+        }
+    }
     .footer__profile__para{
         width: 35%;
     }
@@ -103,9 +383,13 @@
     html{
         font-size: 58%;
     }
+    .header{
+        height: 8vh;
+    }
     .section2{
         &__data{
             gap: 10rem;
+            height: 15vh;
         }
     
         &__main__h3{
@@ -121,6 +405,18 @@
     .section3__top{
         width: 90%;
     }
+    .section4{
+        &__grid{
+            grid-template-columns: 16% 16% 16% 16%;
+            grid-template-rows: 7vh 7vh;
+            &__child{
+            padding: 2rem 1rem;
+            &__para{
+                font-size: 1.6rem;
+            }
+            }
+        }
+    }
     .footer__profile__para{
         width: 35%;
     }
@@ -130,11 +426,31 @@
     html{
         font-size: 58%;
     }
+    .header{
+        height: 8vh;
+    }
     .section1{
         width: 80%;
     }
+    .section2{
+        &__data{
+            height: 15vh;
+        }
+    }
     .section3__top{
         width: 80%;
+    }
+    .section4{
+        &__grid{
+            grid-template-columns: 16% 16% 16% 16%;
+            grid-template-rows: 8vh 8vh;
+            &__child{
+            padding: 1.3rem 1rem;
+                &__para{
+                    font-size: 1.6rem;  
+                }
+            }
+        }
     }
     .footer__profile__para{
         width: 35%;
@@ -145,23 +461,40 @@
     .section1{
         width: 80%;
     }
+    .header{
+        height: 8vh;
+    }
+    .section2{
+        &__data{
+            height: 15vh;
+        }
+    }
     .section3__top{
         width: 80%;
+    }
+    .section4{
+        &__grid{
+            grid-template-columns: 17% 17% 17% 17%;
+            grid-template-rows: 8vh 8vh;
+            &__child{
+            padding: 1.3rem 1rem;
+            }
+        }
     }
     .footer__profile__para{
         width: 35%;
     }
 }
-// @media only screen and (max-width: 1527px) and (min-width: 1450px) {
-//     html{
-//         font-size: 68%;
-//     }
-//     .section1{
-//         &__left__h3{
-//             width: 90%;
-//         }
-//     }
-// }
+@media only screen and (max-width: 1527px) and (min-width: 1450px) {
+    html{
+        font-size: 68%;
+    }
+    .section1{
+        &__left__h3{
+            width: 90%;
+        }
+    }
+}
 // @media only screen and (max-width: 1697px) and (min-width: 1527px) {
 //     html{
 //         font-size: 73%;

@@ -52,8 +52,11 @@
             text-align: center;
         }
         &__blocks{
-            display: flex;
-            justify-content: center;
+            // display: flex;
+            // justify-content: center;
+            display: grid;
+            grid-auto-rows: auto;
+            grid-template-columns: auto auto auto auto;
             gap: 2rem;
             &__1{
                 display: flex;
