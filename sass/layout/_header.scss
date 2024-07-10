@@ -68,6 +68,17 @@
         display: none;
     }
 }
+#ham{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mystyle{
+    left: 0% !important;
+    transition: all .5s;
+}
+.mystyle-l{
+    left: 100% !important;
+    transition: all .5s;
+}
 .talkToUs{
     height: 5vh;
     background-color: #ffcf3a;
@@ -81,23 +92,5 @@
         color: #0063ff;
         font-weight: 600;
         text-shadow:0 0 .5px #0063ff;
-    }
-}
-@keyframes right {
-	0% {
-        right: 100%;
-    }
-
-    100% {
-    right: 0;
-    }
-}
-@keyframes left {
-	0% {
-        right: 0%;
-    }
-
-    100% {
-    right: 100%;
     }
 }

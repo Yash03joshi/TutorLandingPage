@@ -75,6 +75,17 @@ body {
   .header__small {
     display: none; }
 
+#ham {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.mystyle {
+  left: 0% !important;
+  transition: all .5s; }
+
+.mystyle-l {
+  left: 100% !important;
+  transition: all .5s; }
+
 .talkToUs {
   height: 5vh;
   background-color: #ffcf3a;
@@ -88,18 +99,6 @@ body {
     color: #0063ff;
     font-weight: 600;
     text-shadow: 0 0 .5px #0063ff; }
-
-@keyframes right {
-  0% {
-    right: 100%; }
-  100% {
-    right: 0; } }
-
-@keyframes left {
-  0% {
-    right: 0%; }
-  100% {
-    right: 100%; } }
 
 .section1 {
   margin: auto;
@@ -158,6 +157,7 @@ body {
           justify-content: center;
           align-items: center; }
           .section1__left__buttons__seeHow__circle__triangle {
+            display: none;
             width: 0;
             height: 0;
             border-top: 10px solid transparent;
@@ -545,29 +545,35 @@ body {
         border-radius: 5rem; }
     .header__small {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       width: 100%;
       height: 100%;
       padding: 0 10rem; }
       .header__small__btn {
-        position: absolute;
-        left: 5rem;
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
-        background-color: #000;
-        cursor: pointer; }
+        z-index: 3;
+        width: 4rem;
+        height: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center; }
+        .header__small__btn__line {
+          width: 27px;
+          height: 4px;
+          border-radius: 3px;
+          background-color: #000; }
     .header__large {
       position: fixed;
       top: 0;
       left: 100%;
-      background-color: red;
+      background-color: white;
       flex-direction: column;
       height: 100%;
       width: 100%;
       justify-content: center;
-      gap: 5rem; }
+      gap: 5rem;
+      transition: all .5s; }
       .header__large__1 {
         display: none; }
   .section2 {
